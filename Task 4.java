@@ -44,7 +44,7 @@ class Quiz {
 
             currentQuestionIndex++;
 
-            // Set timer for next question (10 seconds)
+            // Set timer for next question 
             timer.schedule(new TimerTask() {
                 @Override
                 public void run() {
